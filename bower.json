@@ -1,0 +1,21 @@
+{
+  "name": "polymer-project",
+  "version": "0.0.0",
+  "authors": [
+    "Rattanak Chea <rattanak.chea@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~1.0.8",
+    "google-web-components": "googlewebcomponents/google-web-components#~1.0.1",
+    "iron-elements": "PolymerElements/iron-elements#~1.0.3",
+    "paper-elements": "PolymerElements/paper-elements#~1.0.2"
+  }
+}

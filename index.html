@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Polymer Youtube Project</title>
+
+	
+	<style>
+		@media screen 
+		and (min-device-width: 1200px)
+		and (-webkit-min-device-pixel-ratio: 1) { 
+			.video {
+				width: 30%;
+				float:left;
+			}
+		}
+
+
+	</style>
+</head>
+<body class="vertical layout">
+	<script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+	<link rel="import" href="bower_components/polymer/polymer.html">
+	
+	<link rel="import" href="bower_components/paper-header-panel/paper-header-panel.html">
+	<link rel="import" href="bower_components/paper-toolbar/paper-toolbar.html">
+	<link rel="import" href="bower_components/paper-material/paper-material.html">
+
+	<link rel="import" href="bower_components/google-youtube/google-youtube.html">
+
+	<paper-header-panel>
+
+	<paper-toolbar>
+	<div class="title">Youtube Project</div>
+	<div>This is Paper Toobar</div>
+
+</paper-toolbar>	
+</paper-header-panel>
+
+<paper-material elevation="1">
+paper material components
+</paper-material>
+
+<paper-material elevation="1">
+<div class="video">
+	<h3>Polymer and Modern API</h3>
+	<google-youtube
+	video-id="fD2As5RmM8Q"
+	height="270px"
+	width="480px"
+	rel="0"
+	start="5"
+	autoplay="0">
+</google-youtube>
+<p>some description</p>
+</div>
+
+<div class="video">
+	<h3>Embedded Web Players</h3>
+	<google-youtube
+	video-id="M7lc1UVf-VE"
+	height="270px"
+	width="480px"
+	rel="0"
+	start="5"
+	autoplay="0">
+</google-youtube>
+</paper-material>
+<p>some description</p>
+</div>
+
+<div class="video">
+	<h3>Make Chrome App</h3>
+	<google-youtube
+	video-id="xgj-2etILdk"
+	height="270px"
+	width="480px"
+	rel="0"
+	start="5"
+	autoplay="0">
+</google-youtube>
+</paper-material>
+<p>some description</p>
+</div>
+
+
+
+
+</body>
+</html>
